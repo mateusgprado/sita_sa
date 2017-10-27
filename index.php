@@ -2,43 +2,26 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="stylesheet" href="estilo.css" type="text/css">
         <title>Digital Tech</title>
     </head>
     <body>
         <div id="container">
-            <header>
-                <section>
-                    <nav id="menu">
-                        <ul>
-                            <li>
-                                <a href="index.html">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="produtos.html">
-                                    Produtos
-                                </a>
-                            </li>
-                            <li>
-                                <a href="serviços.html">
-                                    Serviços
-                                </a>
-                            </li>
-                            <li>
-                                <a href="colaboradores.html">
-                                    Colaboradores
-                                </a>
-                            </li>
-                            <img src="img/logo.jpg" alt="logo" ID="logo"/>
-                        </ul>
-                    </nav>
-                </section>
-            </header>
+            <header> 
+                <nav>
+                </nav>
+                <div id='logo'>
+                </div>
+            </header>>
+            <div id='menu'>
+            </div>
+            <div id='novidades'>
+                <?php
+                     include 'novidades.php';
+                ?>
+            </div>
+            <footer> 
+            </footer>>    
         </div>
-        <?php
-        // put your code here
-        ?>
     </body>
 </html>
