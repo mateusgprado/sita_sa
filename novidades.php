@@ -1,8 +1,7 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+<div id="tit_novidades">
+    <ul>
+        <li><h2 class="preto">NOVIDADES</h2></li>
+        <li><h2 class="cinza">DESTAQUES</h2></li>
+    </ul>
+</div>
 

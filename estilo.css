@@ -15,3 +15,31 @@ body {
     font-family: Arial;
     font-size: 12px;
 }
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+#galeria {
+    width: 100%;
+    text-align: center;
+}
+#galeria #tit_novidade {
+    text-align: center;
+    widht:100%;    
+}
+#galeria #tit_novidades ul{
+    list-style-type: none;
+    height: 80px;
+}
+#galeria #tit_novidades ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px;
+}
+#galeria #tit_novidades ul li .preto{
+ color:#000;   
+}
+#galeria #tit_novidades ul li .cinza{
+ color:#CCC;   
+}

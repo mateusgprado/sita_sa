@@ -8,20 +8,22 @@
     <body>
         <div id="container">
             <header> 
-                <nav>
-                </nav>
                 <div id='logo'>
+                    <img src=""/>
                 </div>
-            </header>>
+            </header>
             <div id='menu'>
-            </div>
-            <div id='novidades'>
                 <?php
-                     include 'novidades.php';
+                    include 'menu.php';
+                ?>
+            </div>
+            <div id="galeria">
+                <?php
+                include 'novidades.php';
                 ?>
             </div>
             <footer> 
-            </footer>>    
+            </footer>  
         </div>
     </body>
 </html>
