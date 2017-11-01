@@ -18,12 +18,12 @@ body {
 #container {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
+    
 }
 header{
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #87CEFA;
 }
 header #logo .logo{
     width: 21%;
@@ -31,7 +31,6 @@ header #logo .logo{
 }
 #menu{
     width: 100%;
-    border: 1px solid red;
     text-align: center;
 }
 #menu .navegacao ul{
@@ -55,25 +54,42 @@ header #logo .logo{
 	background:#DCDCDC;
 }
 #galeria {
-    width: 100%;
+   width: 100%;
+    height: auto;
     text-align: center;
 }
 #galeria #tit_novidade {
-    text-align: center;
-    widht:100%;    
+   text-align: center;
+   widht:100%;    
 }
 #galeria #tit_novidades ul{
-    list-style-type: none;
-    height: 80px;
+   list-style-type: none;
+   height: 80px;
 }
 #galeria #tit_novidades ul li{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 20px;
+   display: inline-block;
+   margin-top: 10px;
+   padding: 20px;
 }
 #galeria #tit_novidades ul li .preto{
- color:#000;   
+color:#000;   
 }
 #galeria #tit_novidades ul li .cinza{
- color:#CCC;   
+color:#CCC;   
+}
+#galeria #album {
+     width:100%; 
+     height: auto;
+}
+#galeria #album .item{
+     width:19%; 
+     height:80%;
+     border: 1px solid black; 
+     float:left;
+     margin:5px;
+}
+#galeria #album .item .fotos{
+     width:70%; 
+     height:190px;
+     margin:2px;
 }
