@@ -9,17 +9,27 @@
         <div id="container">
             <header> 
                 <div id='logo'>
-                    <img src=""/>
+                    <img src="img/logo.png" alt="logo" class="logo"/>
                 </div>
             </header>
             <div id='menu'>
                 <?php
-                    include 'menu.php';
+                    include "menu.php";
+                ?>
+            </div>
+            <div id="banner">
+                <?php
+                                include 'banner.php';
                 ?>
             </div>
             <div id="galeria">
                 <?php
                 include 'novidades.php';
+                ?>
+            </div>
+            <div id="promacao">
+                <?php
+                                include 'promocao.php';
                 ?>
             </div>
             <footer> 
