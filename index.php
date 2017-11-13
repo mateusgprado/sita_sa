@@ -21,11 +21,13 @@
         <div class="fundo">
             <div id="container">
                 <header> 
+                    <img src="img/logo.png" alt='logo' id='logo'>
+                </header>
+                <div id="menu">
                     <?php
                     include "menu.php";
                     ?>
-                </header>
-                <br/>
+                </div>
                 <section class="titulo">
                     <h1><p>BEM VINDO AO NOSSO SITE!</p></h1>
                 </section>

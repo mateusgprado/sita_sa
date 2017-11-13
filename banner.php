@@ -1,10 +1,10 @@
 <div class="slider">
-    <img class="mySlides" src="img/f1.jpg"/>
-    <img class="mySlides" src="img/fT2.jpg"/>
-    <img class="mySlides" src="img/f3.jpg"/>
-    <img class="mySlides" src="img/f4.jpg"/>
-    <img class="mySlides" src="img/f5.jpg"/>
-    <img class="mySlides" src="img/f6.jpg"/>
+    <img class="mySlides" src="img/f1.png"/>
+    <img class="mySlides" src="img/f2.png"/>
+    <img class="mySlides" src="img/f3.png"/>
+    <img class="mySlides" src="img/f4.png"/>
+    <img class="mySlides" src="img/f5.png"/>
+    <img class="mySlides" src="img/f6.png"/>
 </div>
 <script>
     var myIndex = 0;
@@ -21,6 +21,6 @@
             myIndex = 1
         }
         x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
+        setTimeout(carousel, 3000); // Change image every 2 seconds
     }
 </script>

@@ -1,13 +1,7 @@
 <nav class="navegacao">
     <ul>
         <li> 
-            <div id="ef">
-                <img src="img/Icone_login.png" alt="home" id="icone">
-                <p>Home</p>
-            </div>
-        </li>
-        <li> 
-            <a href="home.php" > 
+            <a href="index.php" > 
                 HOME 
             </a>
         </li>
