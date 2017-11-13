@@ -2,38 +2,24 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
         <title>Digital Tech</title>
     </head>
     <body>
-        <div id="container">
-            <header> 
-                <div id='logo'>
-                    <img src="img/logo.png" alt="logo" class="logo"/>
+        <div class="fundo">
+            <div id="conteudo">
+                <div id="intro">
+                    <iframe id="myFrame" src="home.php"></iframe>
+                    <p id="demo"></p> 
+                    <script>
+                        document.getElementById("myFrame").addEventListener("load", myFunction);
+
+                        function myFunction() {
+                            document.getElementById("demo").innerHTML = "Iframe is loaded.";
+                        }
+                    </script>
                 </div>
-            </header>
-            <div id='menu'>
-                <?php
-                    include "menu.php";
-                ?>
             </div>
-            <div id="banner">
-                <?php
-                                include 'banner.php';
-                ?>
-            </div>
-            <div id="galeria">
-                <?php
-                include 'novidades.php';
-                ?>
-            </div>
-            <div id="promacao">
-                <?php
-                                include 'promocao.php';
-                ?>
-            </div>
-            <footer> 
-            </footer>  
         </div>
     </body>
 </html>

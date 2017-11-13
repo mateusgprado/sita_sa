@@ -32,8 +32,39 @@
     </div>    
     <div class="item">
         <img src="img/5.jpg" alt='Foto5' class="fotos">
-        <div class="desc">iPad 32GB</div>
-        <div class="preco"> R$1.750,50</div>
+        <div class="desc">Teclado Positivo</div>
+        <div class="preco"> R$43,15</div>
+    </div>    
+    <div class="item">
+        <img src="img/80.jpg" alt='Foto80' class="fotos">
+        <div class="desc">Mouse Óptico Sem Fio</div>
+        <div class="preco"> R$ 22,90</div>
+    </div>    
+    <div class="item">
+        <img src="img/iphone.jpg" alt='iphone' class="fotos">
+        <div class="desc">Smartphone Apple iPhone </div>
+        <div class="preco"> R$1.569,27</div>
+    </div>    
+    <div class="item">
+        <img src="img/iphone8.jpg" alt='iphone8' class="fotos">
+        <div class="desc">iPhone 8 </div>
+        <div class="preco"> R$ 3.519,12 </div>
+    </div>    
+    
+    <div class="item">
+        <img src="img/camera.jpg" alt='camera' class="fotos">
+        <div class="desc">Câmera Samsung Gear 360°</div>
+        <div class="preco">  R$ 1.178  </div>
+    </div>    
+    <div class="item">
+        <img src="img/cabo.jpg" alt='cabo' class="fotos">
+        <div class="desc">Cabo de rede Ganbei 8 vias</div>
+        <div class="preco">  R$ 24,33 </div>
+    </div>    
+    <div class="item">
+        <img src="img/impressora.jpg" alt='impressora' class="fotos">
+        <div class="desc">Multifuncional HP DeskJet Ink Advantage</div>
+        <div class="preco">  R$ 263,12 </div>
     </div>    
     
 </div>

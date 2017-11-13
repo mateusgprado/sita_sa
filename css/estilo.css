@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/10/2017, 10:18:49
+    Author     : maria_sabino
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+#intro {
+    width:100%;
+    height: 100%;
+}
+#myFrame{
+    width: 100%;
+    height: 100%;  
+}
+.fundo{
+    background-image: url('../img/fundo2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#conteudo{
+    width: 100%;
+    height: 1000px;
+}
+#container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+header {
+    width: 100%;
+    text-align:center; 
+}
+header #logo .log{
+    width: 100%;
+    height: 280px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+header .navegacao ul{
+    list-style-type: none;
+
+}
+header .navegacao ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+header .navegacao ul li #ef{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    float: left;
+    padding: 10px;
+}
+header .navegacao ul li #ef #icone{
+    width: 40%;
+    height: 50px;
+     border: 1px solid blue;
+}
+header .navegacao ul li #ef{
+    margin-top:0px; 
+}
+header .navegacao ul li a {
+    display:block;
+    padding:20px;
+    text-decoration:none;
+    color:#000;
+}
+header .navegacao ul li a:hover{
+    font-size:20px;
+    font-weight:bold;
+}
+.titulo{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.titulo p{
+    margin: auto;
+    padding: 20px;
+    color: black;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+#banner{
+    text-align: center;
+}
+#banner .slider{
+    max-width:80%;
+    margin: auto;
+}
+#banner .slider .mySlides {
+    display: none;
+    width:100%;
+    height:500px;
+}
+#galeria {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#galeria #tit_novidade {
+    text-align: center;
+    widht:100%;    
+}
+#galeria #tit_novidades ul{
+    list-style-type: none;
+    height: 80px;
+}
+#galeria #tit_novidades ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px;
+}
+#galeria #tit_novidades ul li .preto{
+    color:#000;   
+}
+#galeria #tit_novidades ul li .cinza{
+    color:#CCC;   
+}
+#galeria{
+    width: 100%;
+    height: 840px;
+}
+#galeria #album {
+    width:100%; 
+    height: auto;
+    text-align: center;
+}
+#galeria #album .item{
+    width:23%; 
+    height:80%;
+    border: 1px solid black;
+    float:left;
+    margin:5px;
+    padding: 6.5px;
+}
+#galeria #album .item .fotos{
+    width:70%; 
+    height:190px;
+    margin:2px;
+}
+footer {
+    background-color:#C0C0C0;
+    text-align:center;
+    height:30px;
+    font-style:italic;
+    font-weight:bold;
+    font-size:12px;
+}
+footer p {
+    padding:10px;
+}

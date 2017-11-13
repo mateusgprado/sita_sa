@@ -1,7 +1,13 @@
-<nav class='navegacao'>
+<nav class="navegacao">
     <ul>
         <li> 
-            <a href="index.php" > 
+            <div id="ef">
+                <img src="img/Icone_login.png" alt="home" id="icone">
+                <p>Home</p>
+            </div>
+        </li>
+        <li> 
+            <a href="home.php" > 
                 HOME 
             </a>
         </li>
@@ -17,15 +23,14 @@
         </li>
         <li>
             <a href="produtos.php" > 
-                 EMPRESA 
+                EMPRESA 
             </a> 
         </li>
         <li> 
             <a href="produtos.php" > 
-                 CONTATO 
+                CONTATO 
             </a> 
         </li>
     </ul>
 </nav>
-    
-    
+
