@@ -25,6 +25,11 @@
                 CONTATO 
             </a> 
         </li>
+        <li> 
+            <a href="solucoes.php" > 
+                SOLUÇÕES 
+            </a> 
+        </li>
     </ul>
 </nav>
 

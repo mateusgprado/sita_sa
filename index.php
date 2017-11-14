@@ -41,9 +41,9 @@
                     include 'novidades.php';
                     ?>
                 </div>
-                <div id="promacao">
+                <div id="solu">
                     <?php
-                    include 'promocao.php';
+                    include 'solucaos.php';
                     ?>
                 </div>
                 <br/>
